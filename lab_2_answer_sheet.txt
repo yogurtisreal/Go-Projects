@@ -1,1 +1,75 @@
-test
+2. 1 Byte(s)
+
+3. 
+// Create package
+package main
+
+// Our Imports
+import(
+	"fmt"
+)
+
+// Main Code Execution
+
+func main() {
+	var a int8
+	var x int16
+	var y int32
+	var z int64
+	var c int
+	var f float32
+	var k float64
+	var b bool
+	var s string
+	a = 5
+	y = 5
+	x = 5
+	z = 5
+	c = 5
+	f = 5.1
+	k = 5.1
+	b = false
+	s = "hi"
+	fmt.Printf("%d\n", a)
+	fmt.Printf("%d\n", x)
+	fmt.Printf("%d\n", y)
+	fmt.Printf("%d\n", z)
+	fmt.Printf("%d\n", c)
+	fmt.Printf("%d\n", f)
+	fmt.Printf("%d\n", k)
+	fmt.Print(b, "\n")
+	fmt.Print(s, "\n")
+}
+
+4. "cannot use 50000 (untyped int constant) as int16 value in variable declaration" the bytes of what int16 holds is 2, meaning the appropiate value it can hold is 32768
+
+5. The first output did not have an "8"; The second output added in an "8" between 7 and 9.
+
+6. // Create a variable and name it whatever and assign a int value
+// Create a variable and name it whatever and assign a int value
+// first output this part
+// swap the value of both variables by moving them around
+// output this last part
+
+7. 
+// Create package
+package main
+
+// Our Imports
+import(
+	"fmt"
+)
+
+// Main Code Execution
+func main() {
+	// Create a variable and name it whatever and assign a int value
+	a := 15
+	// Create a variable and name it whatever and assign a int value
+	b := 25
+	// first format output this part
+	fmt.Printf("\nFirst Part:\nValue #1: %d\nValue #2: %d\n", a, b)
+	// swap the value of both variables by moving them around
+	a, b = b, a
+	// lastly, format output this part	
+	fmt.Printf("\nSecond Part:\nValue #1: %d\nValue #2: %d\n", a, b)
+}
