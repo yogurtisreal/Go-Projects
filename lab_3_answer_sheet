@@ -1,0 +1,42 @@
+Christopher Tapia Maldonado or "Chris"
+
+1a) Int 
+ b) Float
+ c) Float
+ d) String
+ e) String
+ f) String
+ g) Boolean
+ h) String
+ i) Boolean
+
+2) ./main.go:12:6: cannot use 2.954 (untyped float constant) as int value in assignment (truncated)
+
+
+3) No error, output shows the number 2
+
+
+4) No error, output shows the number 65
+
+
+5) No error, output shows the letter A
+
+
+6)
+string quote = "A good quote is \"Life's Uncertain, Eat Dessert First!\"\n";
+
+7)
+// Create package
+package main
+
+// Our Imports
+import (
+	"fmt"
+	"math"
+)
+
+// Main Code Execution
+func main() {
+	const kPI = math.Pi
+	fmt.Printf("%.10f", kPI)
+}
