@@ -8,7 +8,7 @@ Christopher Tapia Maldonado or "Chris"
  f) String
  g) Boolean
  h) String
- i) Boolean
+ i) Error
 
 2) ./main.go:12:6: cannot use 2.954 (untyped float constant) as int value in assignment (truncated)
 
