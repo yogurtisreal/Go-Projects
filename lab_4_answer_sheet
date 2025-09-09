@@ -1,0 +1,36 @@
+1. 
+x, y := float64(5), float64(7)
+answer := x / y
+
+fmt.Print(answer)
+
+2.
+If you have a number of pods you can quit.
+
+3.
+fmt.Print("The answer to the question of ")
+fmt.Println("Life, the Universe, and Everything is 42.")
+
+4.
+a) 0
+b) 3.141592653589793
+c) 9.42477796076938
+d) 31.41592653589793
+e) 62.83185307179586
+f) 251.32741228718345
+
+My observation point of view are the output numbers adding/multiplying up by 3, 30, or more.
+
+5.
+a) 6
+
+6.
+a) 4
+
+7. 
+a) Print formats using the default formats. Spaces are added between operands when neither is a stirng.
+b) Spaces are always added between operands and a newline is appended.
+
+8.
+binaryNumber := 255
+fmt.Printf("% 08b", binaryNumber)
