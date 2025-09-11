@@ -1,0 +1,84 @@
+Christopher Tapia Maldonado or "Chris"
+
+1.
+a) true
+b) false
+c) false
+d) false
+e) undefined
+f) true
+g) false
+h) true
+i) false
+j) undefined
+k) false
+l) true
+
+2.
+a) true
+b) false
+c) false
+d) true
+e) true
+
+3.
+a) value1 := 5
+fmt.Print(value1 > 1)
+
+b) value1 := 5
+	fmt.Print(value1 <= 2)
+
+c)  x := 5
+	y := 0
+	fmt.Print(x != y)
+
+d) x := 5
+	y := 2
+	fmt.Print((x != 1) || (y <= 5))
+
+e) x := 5
+	y := -2
+	fmt.Print((x != 1) && (y >= 5))
+
+f) x := 1
+	y := 0
+	fmt.Print((x == 1) || (x >= y))
+
+g) x := 0
+	y := 10
+	temp := 3.2
+
+	fmt.Print((x / y) > int(temp) && (x < y))
+
+h) x := 0
+	y := 10
+	temp := 3.2
+
+	fmt.Print((x / y) >= int(temp) || (x != y))
+
+i) 'A'
+
+j) 1
+
+4) func boolExpression() {
+	reader := NewCinReader()
+	
+	intVar := reader.ReadIntegerRange(-100, 100)
+
+	print(intVar)
+}
+
+5) func boolExpression() {
+	reader := NewCinReader()
+	
+	var charVar rune
+	charVar = reader.ReadCharacterSet([]rune("YyNn"))
+	fmt.Print(charVar)
+}
+
+6) func boolExpression() {
+	reader := NewCinReader()
+	
+	someWord := reader.ReadString(true)
+	fmt.Print(someWord)
+}
