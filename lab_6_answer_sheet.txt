@@ -1,0 +1,59 @@
+Chris Tapia Maldonado
+
+1) X Is Positive
+
+2) "Hello from the first if" and "Hello from the second else"
+
+3) x := 200
+
+	if x > 100 {
+		if x != 0 {
+			fmt.Println("Greater!")
+		}
+	} else {
+		if x < 100 {
+			if x != 0 {
+				fmt.Println("Lesser!")
+			}
+		}
+	}
+
+4) Exam := 60
+	programDone := 10
+
+	if Exam >= 60 {
+		if Exam != 0 {
+			fmt.Println("Passed")
+		}
+	} else {
+		if programDone >= 10 {
+			if programDone != 0 {
+				fmt.Println("Failed")
+			}
+		}
+	}
+
+5) 
+const (
+		kGradeA = 9
+		kGradeB = 8
+		kGradeC = 7
+		kGradeD = 6
+		kGradeE = 5
+		)
+		var grade int
+		fmt.Print("Please enter a grade (Must be Int: 9-5): ")
+		fmt.Scan(&grade)
+		
+		switch grade {
+		case 9:
+			fmt.Println("Your grade is 90-99%",)
+		case 8:
+			fmt.Println("Your grade is 89-89%")
+		case 7:
+			fmt.Println("Your grade is 70-79%")
+		case 6:
+			fmt.Println("Your grade is 60-69%")
+		case 5:
+			fmt.Println("Your grade is 0-59%")
+		}
