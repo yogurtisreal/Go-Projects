@@ -1,0 +1,44 @@
+Chris Tapia Maldonado
+
+1)
+
+false
+true
+false
+
+2)
+true
+false
+true
+true
+false
+false
+false
+
+3)
+true
+
+4)
+0
+Runtime
+Syntax
+Sytax
+
+5)
+x := 2
+y := 2
+
+if (x != 0 && y != 0) {
+		fmt.Print("Not zero") 
+	} else {
+		fmt.Print("Zero")
+	}
+
+6)
+var lower rune
+
+	if (lower == 'a' || lower != 'a') {
+		fmt.Print("Lowercase")
+	} else {
+		return
+	}
