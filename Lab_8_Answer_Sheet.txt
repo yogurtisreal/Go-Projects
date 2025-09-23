@@ -1,0 +1,25 @@
+1)
+
+a) NONE
+b) X
+c) 12345678
+d) A C E G I K M
+e) XXXXXXXXXXXXXXXXXXX%
+
+2)
+
+a) 2 4 6 8 
+b) infinite loop
+c) 
+Sample Finished
+Sample Finished
+Sample Finished
+Sample Finished
+
+3)
+
+// Create a loop that'll read the numbers
+for count := 1; count < 11; count++ {
+	// Multiply them by the power of 2
+	// Output the results
+}
