@@ -1,0 +1,54 @@
+Chris Tapia Maldonado
+
+1)
+func sum(a, b, c int) int {
+	return a + b + c
+}
+
+2)
+func fact(number float64) int {
+	if number < 0 {
+		fmt.Println("Negative")
+	} else if number == 0 {
+		fmt.Println("Zero")
+	} else {
+		fmt.Println("Positive")
+	}
+	return int(number)
+}
+
+3)
+func convertToCelsius(fahrenheit float64) float64 {
+	return (fahrenheit - 32) * 5 / 9
+}
+
+4)
+
+func numbers(n int) {
+	if n <= 0 {
+		return
+	}
+
+	for i := 1; i < n; i++ {
+		fmt.Printf("%d", i)
+	}
+	fmt.Printf("%d\n", n)
+}
+
+5)
+
+package main
+
+import (
+    "fmt"
+    "math"
+)
+
+func round(number float64) int {
+	return int(math.Floor(number + 0.5))
+}
+
+func main() {
+	fmt.Println(round(5.2))
+	fmt.Println(round(5.6))
+}
