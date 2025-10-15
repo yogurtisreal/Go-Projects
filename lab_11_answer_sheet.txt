@@ -28,3 +28,17 @@ Answer: Cannot be used in array to size it out.
 5) 0 2 4 6 8 10 12 14 16 18 | 0 4 8 12 16
 
 6) 
+  m := [10]int{}
+	reader := NewCinReader()
+
+	fmt.Println("Enter 10 integars, one per line")
+	for i := 0; i < 10; i++ {
+		fmt.Printf("Enter integar %d: ", i + 1)
+		input := reader.ReadInteger()
+
+		m[i] = input
+	}
+
+	for k := range m {
+		fmt.Print(k, ", ")
+	}
