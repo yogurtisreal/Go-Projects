@@ -1,0 +1,72 @@
+1)
+
+The output prints out:
+A  $9.99
+A  $1.11
+
+2)
+
+var x Stuff
+	x.b = 1
+	x.c = 2
+
+	x = Stuff{}
+	x.b = 1
+	x.b = 2
+
+3)
+
+type EmployeeRecord struct {
+	wage float64
+	sickDays int
+	salary float64
+}
+
+this type structure holds an employee record that consists, wage rate, sickDays, and salary.
+
+4)
+
+function A outputs an error not haing a colon in front of the = sign
+
+function B outputs no error and it prints 5 and 10
+
+5)
+
+The following code outputs:
+1
+1
+2
+2
+3
+2
+1
+
+6)
+
+The following code outputs:
+Global
+Main()
+Global
+Output()
+Still Global()?
+
+7)
+
+the output displays an error: ./main.go:136:14: undefined: i
+
+8)
+
+the following code outputs:
+0
+1
+2
+0
+
+9)
+
+the following code outputs:
+0
+1
+2
+3
+
