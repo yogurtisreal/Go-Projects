@@ -1,0 +1,49 @@
+Chris Tapia Maldonado
+
+1. Attributes are the data of an object.
+2. State is the current value of the data of an object.
+3. Methods are the actions an object can take.
+4. Inheritance is a way of organizing classes.
+
+5.
+a) Go - procedural, concurrent, and imperative
+b) C++ - object oriented, procedural, and generic
+c) PHP - procedural, and object oriented
+d) JavaScript - object oriented, functional, and event driven
+e) Alf - imperative, and object oriented
+f) Haskell - pure functional
+g) Rust - multi paradigm, imperative, functional, and concurrent
+h) Java - object oriented, and class based
+i) C# - object oriented, functional, and component oriented
+j) F# - functional, object oriented, and imperative
+k) Prolog - logic programming
+
+6.
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Chris" << endl;
+  return 0;
+}
+
+7.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int exam;
+  int programsDone;
+
+  cout << "Enter exam score: ";
+  cin >> exam;
+
+  if (exam >= 60 && programsDone >= 10) {
+    cout << "Passed" << endl;
+  } else {
+    cout << "Failed" << endl;  
+  }
+
+  return 0;
+}
